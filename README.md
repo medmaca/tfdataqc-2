@@ -20,7 +20,7 @@
 
 ## Introduction
 
-**nf-core/tfdataqctwo** is a bioinformatics pipeline that ...
+**nf-core/tfdataqctwo** is a bioinformatics pipeline that performs quality control (QC) on short-reads (using fastp) and long-reads (using fastplong), analysing quality metrics with FASTQC, looking for contamination with Kraken2 (Krona), assessing level of Ribosomal RNA with SortMeRNA, and generating a comprehensive report with MultiQC. 
 
 <!-- TODO nf-core:
    Complete this sentence with a 2-3 sentence summary of what types of data the pipeline ingests, a brief overview of the

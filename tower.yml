@@ -1,5 +1,9 @@
 reports:
-  multiqc_report.html:
+  "**/multiqc_report.html":
     display: "MultiQC HTML report"
   samplesheet.csv:
     display: "Auto-created samplesheet with collated metadata and FASTQ paths"
+  "fastp/*.fastp.json":
+    display: "FASTP json files"
+  "krona/kraken2.html":
+    display: "Kraken2 - krona visualization"
